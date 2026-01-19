@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #19A1AE;
+    overflow: hidden;
+}
+
+.circle1 {
+    width: 700px;
+    height: 700px;
+    border:none;
+    border-radius: 50%;
+    background:linear-gradient(rgba(9, 137, 180, 0) 10%, rgba(83, 255, 238, 0.618) 100%);
+
+    opacity: 50%;
+    position: relative;
+    top: -250px;
+    left: -210px;
+    z-index: -1;
+    
+}
+
+.circle2 {
+    width: 700px;
+    height: 700px;
+    border: none;
+    border-radius: 50%;
+    background:linear-gradient(rgba(9, 137, 180, 0) 10%, rgba(83, 255, 238, 0.618) 100%);
+    transform: rotate(200deg);
+    opacity: 50% ;
+    position: fixed;
+    bottom: -250px;
+    right: -210px;
+    z-index: -1;
+}
+
+.card {
+    width: 350px;
+    height: 374px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+       
+}
+.background  {
+        background-color: #41CBD3;
+        height: 144px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+       }
+
+
+
+.image img {
+    width: 96px;
+    height: 96px;
+    left: 125px;
+    bottom: 40px;
+    position: relative;
+}
+
+.personal-info {
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.insta-info {
+    border-top: 1px solid;
+    border-color: #E8E9EC;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 40px;
+
+
+}
+.number {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2E3349;
+}
+
+.name {
+    font-size: 12px;
+    color: #6B7082;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+.follower {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+
+}
+.likes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
